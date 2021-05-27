@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_register_registerActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/str_register_Heading"
+        android:textColor="@color/black"
+        android:textSize="33sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_firstName_register_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_register_registerActivity"
+        android:layout_margin="20dp"
+        android:hint="@string/str_firstName"
+        android:inputType="textPersonName"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/et_LastName_register_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_firstName_register_activity"
+        android:layout_margin="20dp"
+        android:hint="@string/str_lastName"
+        android:inputType="textPersonName"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/et_phone_register_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_LastName_register_activity"
+        android:layout_margin="20dp"
+        android:hint="@string/str_phone"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/et_password_register_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_phone_register_activity"
+        android:layout_margin="20dp"
+        android:hint="@string/str_enterPassword"
+        android:inputType="textPassword"
+        android:maxLines="1" />
+
+    <Button
+        android:id="@+id/b_register"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_password_register_activity"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/black"
+        android:text="@string/str_register_Heading" />
+
+</RelativeLayout>

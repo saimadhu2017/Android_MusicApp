@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Music</string>
+    <string name="str_phone">Enter Phone Number</string>
+    <string name="str_img_Desc">this is the image logo</string>
+    <string name="str_enterPassword">Enter Password</string>
+    <string name="str_login">Login</string>
+    <string name="str_forgot_password">Forgot Password?</string>
+    <string name="str_registerHere">Register Here</string>
+    <string name="str_sendResetPassword">we will send link to reset your password</string>
+    <string name="str_enterDetails">So, please enter details</string>
+    <string name="str_sendLink">Send Link</string>
+    <string name="str_register_Heading">Register</string>
+    <string name="str_firstName">Enter first Name</string>
+    <string name="str_lastName">Enter Last Name</string>
+    <string name="str_song1_name">Machayange</string>
+    <string name="str_artist1_name">Artist name: Emiway Bantai</string>
+    <string name="str_Duration">Duration: 5:30</string>
+    <string name="str_play">Play</string>
+    <string name="sharedPreferencefile">Music preference</string>
+    <string name="str_logout">Logout</string>
+</resources>

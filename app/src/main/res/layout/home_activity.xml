@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_song1"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/machayenge" />
+
+            <TextView
+                android:id="@+id/tv_song1_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@id/iv_song1"
+                android:text="@string/str_song1_name"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_artist1_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_song1_name"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/iv_song1"
+                android:text="@string/str_artist1_name"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tv_song1_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_artist1_name"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/iv_song1"
+                android:text="@string/str_Duration"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/b_song1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_song1_duration"
+                android:layout_toEndOf="@id/iv_song1"
+                android:backgroundTint="@color/black"
+                android:text="@string/str_play" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_song2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/famous" />
+
+            <TextView
+                android:id="@+id/tv_song2_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@id/iv_song2"
+                android:text="@string/str_song1_name"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_artist2_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_song2_name"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/iv_song2"
+                android:text="@string/str_artist1_name"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tv_song2_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_artist2_name"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/iv_song2"
+                android:text="@string/str_Duration"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/b_song2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_song2_duration"
+                android:layout_toEndOf="@id/iv_song2"
+                android:backgroundTint="@color/black"
+                android:text="@string/str_play" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_song3"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/mayami" />
+
+            <TextView
+                android:id="@+id/tv_song3_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@id/iv_song3"
+                android:text="@string/str_song1_name"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_artist3_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_song3_name"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/iv_song3"
+                android:text="@string/str_artist1_name"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tv_song3_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_artist3_name"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/iv_song3"
+                android:text="@string/str_Duration"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/b_song3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_song3_duration"
+                android:layout_toEndOf="@id/iv_song3"
+                android:backgroundTint="@color/black"
+                android:text="@string/str_play" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_song4"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/doobgaya" />
+
+            <TextView
+                android:id="@+id/tv_song4_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@id/iv_song4"
+                android:text="@string/str_song1_name"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_artist4_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_song4_name"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/iv_song4"
+                android:text="@string/str_artist1_name"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tv_song4_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_artist4_name"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/iv_song4"
+                android:text="@string/str_Duration"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/b_song4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_song4_duration"
+                android:layout_toEndOf="@id/iv_song4"
+                android:backgroundTint="@color/black"
+                android:text="@string/str_play" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_song5"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/thofa" />
+
+            <TextView
+                android:id="@+id/tv_song5_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@id/iv_song5"
+                android:text="@string/str_song1_name"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_artist5_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_song5_name"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/iv_song5"
+                android:text="@string/str_artist1_name"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tv_song5_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_artist5_name"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/iv_song5"
+                android:text="@string/str_Duration"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/b_song5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_song5_duration"
+                android:layout_toEndOf="@id/iv_song5"
+                android:backgroundTint="@color/black"
+                android:text="@string/str_play" />
+        </RelativeLayout>
+        <Button
+            android:id="@+id/b_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_logout"
+            android:backgroundTint="#E80505"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="20dp"/>
+    </LinearLayout>
+</ScrollView>

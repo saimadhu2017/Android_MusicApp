@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_resetPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_sendResetPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tv_enterDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_enterDetails"
+        android:layout_below="@id/tv_resetPassword"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/et_phone_register_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/str_phone"
+        android:layout_below="@id/tv_enterDetails"
+        android:layout_margin="30dp"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:lines="1"/>
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:layout_below="@id/et_phone_register_activity"
+        android:layout_centerHorizontal="true"
+        android:text="@string/str_sendLink"/>
+</RelativeLayout>
