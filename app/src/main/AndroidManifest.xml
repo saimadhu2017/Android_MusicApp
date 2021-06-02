@@ -9,16 +9,16 @@
         android:roundIcon="@mipmap/app_logo_official_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Music">
-        <activity android:name=".Register" />
-        <activity android:name=".Forgot" />
-        <activity android:name=".Home" />
-        <activity android:name=".Login">
+        <activity android:name=".activity.Register" />
+        <activity android:name=".activity.Forgot" />
+        <activity android:name=".activity.Home">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activity.Login" />
     </application>
 
 </manifest>

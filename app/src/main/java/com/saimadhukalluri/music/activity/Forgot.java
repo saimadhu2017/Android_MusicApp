@@ -1,14 +1,16 @@
-package com.saimadhukalluri.music;
+package com.saimadhukalluri.music.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Register extends AppCompatActivity {
+import com.saimadhukalluri.music.R;
+
+public class Forgot extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.register_here_activity);
+        setContentView(R.layout.forgot_pass_activity);
     }
 }
